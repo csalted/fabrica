@@ -1,12 +1,15 @@
 set -e
 
-ascii_art='________                  __        ___.
-\_____  \   _____ _____  |  | ____ _\_ |__
- /   |   \ /     \\__   \ |  |/ /  |  \ __ \
-/    |    \  Y Y  \/ __ \|    <|  |  / \_\ \
-\_______  /__|_|  (____  /__|_ \____/|___  /
-        \/      \/     \/     \/         \/
+ascii_art='
+
+ ______   ______     ______     ______     __     ______     ______    
+/\  ___\ /\  __ \   /\  == \   /\  == \   /\ \   /\  ___\   /\  __ \   
+\ \  __\ \ \  __ \  \ \  __<   \ \  __<   \ \ \  \ \ \____  \ \  __ \  
+ \ \_\    \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \_\  \ \_____\  \ \_\ \_\ 
+  \/_/     \/_/\/_/   \/_____/   \/_/ /_/   \/_/   \/_____/   \/_/\/_/ 
+                                                                       
 '
+
 
 echo -e "$ascii_art"
 echo "=> Omakub is for fresh Ubuntu 24.04 installations only!"
@@ -15,14 +18,14 @@ echo -e "\nBegin installation (or abort with ctrl+c)..."
 sudo apt-get update >/dev/null
 sudo apt-get install -y git >/dev/null
 
-echo "Cloning Omakub..."
-rm -rf ~/.local/share/omakub
-git clone https://github.com/basecamp/omakub.git ~/.local/share/omakub >/dev/null
-if [[ $OMAKUB_REF != "master" ]]; then
-	cd ~/.local/share/omakub
-	git fetch origin "${OMAKUB_REF:-stable}" && git checkout "${OMAKUB_REF:-stable}"
+echo "Cloning Fabrica..."
+rm -rf ~/.local/share/fabrica
+git clone https://github.com/csalted/fabrica.git ~/.local/share/fabrica >/dev/null
+if [[ $FABRICA_REF != "master" ]]; then
+	cd ~/.local/share/fabrica
+	git fetch origin "${FABRICA_REF:-stable}" && git checkout "${FABRICA_REF:-stable}"
 	cd -
 fi
 
 echo "Installation starting..."
-source ~/.local/share/omakub/install.sh
+source ~/.local/share/fabrica/install.sh
