@@ -12,7 +12,7 @@ ascii_art='
 
 
 echo -e "$ascii_art"
-echo "=> Omakub is for fresh Ubuntu 24.04 installations only!"
+echo "=> Fabrica is for fresh Ubuntu 24.04 installations only!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
 
 sudo apt-get update >/dev/null
