@@ -1,3 +1,3 @@
-OMAKUB_THEME_COLOR="blue"
-OMAKUB_THEME_BACKGROUND="nord/background.png"
-source $OMAKUB_PATH/themes/set-gnome-theme.sh
+FABRICA_THEME_COLOR="blue"
+FABRICA_THEME_BACKGROUND="nord/background.png"
+source $FABRICA_PATH/themes/set-gnome-theme.sh

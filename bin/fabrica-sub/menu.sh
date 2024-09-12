@@ -4,4 +4,4 @@ else
 	SUB=$1
 fi
 
-[ -n "$SUB" ] && [ "$SUB" != "quit" ] && source $OMAKUB_PATH/bin/omakub-sub/$SUB.sh
+[ -n "$SUB" ] && [ "$SUB" != "quit" ] && source $FABRICA_PATH/bin/fabrica-sub/$SUB.sh

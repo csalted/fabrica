@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source $FABRICA_PATH/ascii.sh
+echo "" # Add spacing
+echo "                                 $(cat $FABRICA_PATH/version)"
+echo "" # Add spacing
+source $FABRICA_PATH/bin/fabrica-sub/menu.sh

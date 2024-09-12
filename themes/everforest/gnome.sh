@@ -1,3 +1,3 @@
-OMAKUB_THEME_COLOR="bark"
-OMAKUB_THEME_BACKGROUND="everforest/background.jpg"
-source $OMAKUB_PATH/themes/set-gnome-theme.sh
+FABRICA_THEME_COLOR="bark"
+FABRICA_THEME_BACKGROUND="everforest/background.jpg"
+source $FABRICA_PATH/themes/set-gnome-theme.sh
