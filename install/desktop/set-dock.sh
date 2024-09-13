@@ -1,5 +1,6 @@
 # Favorite apps for dock
 apps=(
+	"firefox_firefox.desktop"
 	"google-chrome.desktop"
 	"Alacritty.desktop"
 	"Neovim.desktop"
@@ -10,11 +11,12 @@ apps=(
 	"spotify.desktop"
 	"steam.desktop"
 	"pinta_pinta.desktop"
-	"md.obsidian.Obsidian.desktop"
+	"todoist_todoist.desktop"
+	"obsidian_obsidian.desktop"
 	"Activity.desktop"
 	"Docker.desktop"
 	"Fabrica.desktop"
-	"1password.desktop"
+	"bitwarden_bitwarden.desktop"
 	"org.gnome.Settings.desktop"
 	"org.gnome.Nautilus.desktop"
 	"localsend_app.desktop"
@@ -26,6 +28,7 @@ installed_apps=()
 # Directory where .desktop files are typically stored
 desktop_dirs=(
 	"/var/lib/flatpak/exports/share/applications"
+	"/var/lib/snapd/desktop/applications"
 	"/usr/share/applications"
 	"/usr/local/share/applications"
 	"$HOME/.local/share/applications"
