@@ -18,12 +18,6 @@ alias d='docker'
 alias p='python'
 alias bat='batcat'
 
-# Start docker desktop with apparmor workaround
-startdd() {
-    sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
-    systemctl --user restart docker-desktop
-}
-
 # Kamal
 alias kamal-shell='docker run -it --rm -v "${PWD}:/workdir" -v "${HOME}/.ssh:/root/.ssh" -v "${SSH_AUTH_SOCK}:/ssh-agent" -v /var/run/docker.sock:/var/run/docker.sock -e "SSH_AUTH_SOCK=/ssh-agent" --entrypoint "/bin/sh" ghcr.io/basecamp/kamal:latest'
 
