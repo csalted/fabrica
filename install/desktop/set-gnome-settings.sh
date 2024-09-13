@@ -6,3 +6,6 @@ gsettings set org.gnome.desktop.interface monospace-font-name 'CaskaydiaMono Ner
 
 # Reveal week numbers in the Gnome calendar
 gsettings set org.gnome.desktop.calendar show-weekdate true
+
+# Disable middle click paste
+gsettings set org.gnome.desktop.interface gtk-enable-primary-paste false
