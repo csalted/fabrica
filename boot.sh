@@ -1,4 +1,7 @@
+LIVE=false
+if ${LIVE}; then
 set -e
+fi
 
 ascii_art='
 
