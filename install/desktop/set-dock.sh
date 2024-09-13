@@ -11,6 +11,7 @@ apps=(
 	"spotify.desktop"
 	"steam.desktop"
 	"pinta_pinta.desktop"
+	"Toggl.desktop"
 	"todoist_todoist.desktop"
 	"obsidian_obsidian.desktop"
 	"Activity.desktop"
