@@ -1,5 +1,8 @@
 # Exit immediately if a command exits with a non-zero status
+LIVE=false
+if ${LIVE}; then
 set -e
+fi
 
 # Desktop software and tweaks will only be installed if we're running Gnome
 RUNNING_GNOME=$([[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]] && echo true || echo false)
