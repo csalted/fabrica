@@ -13,3 +13,18 @@ cp ~/.local/share/fabrica/configs/vscode.json ~/.config/Code/User/settings.json
 
 # Install default supported themes
 code --install-extension enkia.tokyo-night
+
+# Install my default extensions 
+code --install-extension almahdi.code-django
+code --install-extension github.vscode-github-actions
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-python.debugpy
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode.makefile-tools
+code --install-extension charliermarsh.ruff
+code --install-extension github.copilot
+code --install-extension github.copilot-chat
+code --install-extension github.vscode-pull-request-github
