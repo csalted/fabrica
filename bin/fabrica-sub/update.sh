@@ -1,5 +1,5 @@
 CHOICES=(
-	"Fabrica        Update Fabrica itself and run any migrations"
+	"Fabrica       Update Fabrica itself and run any migrations"
 	"Ollama        Run LLMs, like Meta's Llama3, locally"
 	"LazyGit       TUI for Git"
 	"LazyDocker    TUI for Docker"
